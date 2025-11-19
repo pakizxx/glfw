@@ -77,6 +77,7 @@ project "GLFW"
 
 	filter "system:windows"
 		systemversion "latest"
+		cppdialect "C++20"
 
 		files
 		{
